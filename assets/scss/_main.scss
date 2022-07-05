@@ -1,0 +1,14 @@
+.bienvenida{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: $color-violet;
+    p{
+        span{
+            color: red;
+        }
+    }
+}
+.sugerencia{
+    padding: 20px;
+    background-color: $color-violet;
+}
