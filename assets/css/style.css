@@ -1,0 +1,12 @@
+.header {
+  background-image: url(../img/header.png);
+  background-position: center;
+  background-size: cover;
+  height: 35vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */
