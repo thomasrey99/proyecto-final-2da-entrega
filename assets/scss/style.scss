@@ -4,3 +4,10 @@
 @import "footer";
 @import "buttons";
 @import "main";
+@import "categorias";
+@import "loginForm";
+body{
+    font-family:$text-font;
+    font-weight: 400;
+    background-color: $color-grey;
+}

@@ -1,0 +1,15 @@
+.categorias{
+    font-family: $text-font;
+        li{
+            a{
+                color:$color-yellow;
+                &:hover{
+                    color: $color-black;
+                    transform: scale(1.2);
+                }
+            }
+        }
+}
+.productos{
+    font-family: $text-font;
+}

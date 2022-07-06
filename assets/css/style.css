@@ -11,9 +11,144 @@
   box-sizing: border-box;
 }
 
-.bienvenida {
+span {
+  color: red;
+}
+
+.footer {
+  padding: 40px 0;
+  background-color: #fff;
+}
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4d;
+}
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #1C2833;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+.footer .social a:hover {
+  opacity: 1;
+}
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer ul a:hover {
+  opacity: 1;
+}
+.footer .copyrigth {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.inicio {
+  background-color: #F2F2F2;
   padding: 20px;
 }
-.sugerencia {
+.inicio .bienvenida {
   padding: 20px;
+  border-radius: 10px;
+  background-color: #840BD8;
+}
+.inicio .bienvenida h1 {
+  font-size: 24px;
+  color: #EFDB13;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+.inicio .bienvenida p {
+  font-family: "Rubik", sans-serif;
+  color: #F2F2F2;
+}
+.inicio .sugerencia {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #840BD8;
+}
+.inicio .sugerencia h2 {
+  font-size: 24px;
+  color: #EFDB13;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+.inicio .sugerencia p {
+  font-family: "Rubik", sans-serif;
+  color: #F2F2F2;
+}
+
+.presentacion {
+  background-color: #EFDB13;
+}
+.presentacion div {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #840BD8;
+}
+.presentacion div h3 {
+  text-align: center;
+  color: #EFDB13;
+  font-family: "Rubik", sans-serif;
+}
+.presentacion div p {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #F2F2F2;
+}
+
+.categorias {
+  font-family: "Rubik", sans-serif;
+}
+.categorias li a {
+  color: #EFDB13;
+}
+.categorias li a:hover {
+  color: #515A5A;
+  transform: scale(1.2);
+}
+
+.productos {
+  font-family: "Rubik", sans-serif;
+}
+
+main .loginTitle {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  color: #515A5A;
+}
+main .login {
+  background-color: #EFDB13;
+  border-radius: 20px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  background-color: #F2F2F2;
 }/*# sourceMappingURL=style.css.map */
