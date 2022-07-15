@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
-span {
-  color: red;
+.span--primary {
+  color: rgb(233, 58, 14);
+}
+
+.span--secundary {
+  color: #EFDB13;
 }
 
 .header {
@@ -72,34 +76,33 @@ span {
   background-color: #F2F2F2;
   padding: 20px;
 }
-.inicio .bienvenida {
+.inicio .bienvenida, .inicio .sugerencia {
   padding: 20px;
   border-radius: 10px;
   background-color: #840BD8;
 }
-.inicio .bienvenida h1 {
-  font-size: 24px;
-  color: #EFDB13;
+.inicio .bienvenida h1, .inicio .sugerencia h1 {
   font-family: "Rubik", sans-serif;
+  font-size: 26px;
   text-align: center;
+  color: #EFDB13;
 }
-.inicio .bienvenida p {
+.inicio .bienvenida p, .inicio .sugerencia p {
   font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  text-align: center;
   color: #F2F2F2;
 }
-.inicio .sugerencia {
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #840BD8;
-}
-.inicio .sugerencia h2 {
-  font-size: 24px;
-  color: #EFDB13;
+.inicio .sugerencia .subtitle {
   font-family: "Rubik", sans-serif;
+  font-size: 24px;
   text-align: center;
+  color: #EFDB13;
 }
 .inicio .sugerencia p {
   font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  text-align: center;
   color: #F2F2F2;
 }
 
@@ -112,34 +115,33 @@ span {
   background-color: #840BD8;
 }
 .presentacion div h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
   text-align: center;
   color: #EFDB13;
-  font-family: "Rubik", sans-serif;
 }
 .presentacion div p {
-  text-align: center;
   font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  text-align: center;
   color: #F2F2F2;
 }
 
-.categorias {
+.categorias, .productos {
   font-family: "Rubik", sans-serif;
 }
-.categorias li a {
+.categorias li a, .productos li a {
   color: #EFDB13;
 }
-.categorias li a:hover {
+.categorias li a:hover, .productos li a:hover {
   color: #515A5A;
   transform: scale(1.2);
 }
 
-.productos {
-  font-family: "Rubik", sans-serif;
-}
-
 main .loginTitle {
   font-family: "Rubik", sans-serif;
-  font-size: 24px;
+  font-size: 26px;
+  text-align: center;
   color: #515A5A;
 }
 main .login {

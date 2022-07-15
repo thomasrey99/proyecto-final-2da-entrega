@@ -1,0 +1,15 @@
+// map backgroun-color
+$b-color:(
+    cards:#840BD8,
+    inicio:#F2F2F2,
+    presentacion:#EFDB13
+);
+$span: (
+    primary:rgb(233, 58, 14),
+    secundary:#EFDB13,
+);
+@each $key, $var in $span {
+    .span--#{$key}{
+        color: $var;
+    };
+}

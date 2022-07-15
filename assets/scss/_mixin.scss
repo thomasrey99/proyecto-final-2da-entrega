@@ -4,6 +4,12 @@
     align-items: $align-i;
     justify-content: $justify-c;
 }
+@mixin font-estructure ( $text-font, $size, $t-align, $color) {
+    font-family: $text-font;
+    font-size: $size;
+    text-align: $t-align;
+    color: $color;
+}
 @mixin dimensiones ($width, $heigth, $padding, $margin) {
     width: $width;
     height: $heigth;

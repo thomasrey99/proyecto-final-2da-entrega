@@ -1,8 +1,6 @@
 main{
     .loginTitle{
-        font-family: $text-font;
-        font-size: $title-size;
-        color:$color-black;
+        @include font-estructure($text-font, $title-size, center, $color-black);
     }
     .login{
         background-color: $color-yellow;

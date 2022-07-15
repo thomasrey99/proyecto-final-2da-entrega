@@ -1,0 +1,38 @@
+.inicio{
+    background-color: map-get($b-color, inicio);
+    padding: 20px;
+    .bienvenida{
+        padding: 20px;
+        border-radius: 10px;
+        background-color: $color-violet;
+        h1{
+            @include font-estructure($text-font, $title-size, center, $color-yellow)
+        }
+        p{
+            @include font-estructure($text-font, $text-size, center, $color-grey)
+        }
+    }
+    .sugerencia{
+        @extend .bienvenida;
+        .subtitle{
+            @include font-estructure($text-font, 24px, center, $color-yellow);
+        }
+        p{
+            @include font-estructure($text-font, $text-size, center, $color-grey)
+        }
+    }
+}
+.presentacion{
+    background-color: map-get($b-color, presentacion);
+    div{
+        padding: 20px;
+        border-radius: 10px;
+        background-color: map-get($b-color, cards);
+        h3{
+            @include font-estructure($text-font, 20px, center, $color-yellow);
+        }
+        p{
+            @include font-estructure($text-font, $text-size, center, $color-grey)
+        }
+    }
+}

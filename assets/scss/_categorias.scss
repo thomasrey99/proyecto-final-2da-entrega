@@ -11,5 +11,5 @@
         }
 }
 .productos{
-    font-family: $text-font;
+    @extend .categorias
 }
