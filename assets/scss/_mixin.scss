@@ -1,0 +1,12 @@
+@mixin align-flexbox ($d-flex, $flex-d, $align-i, $justify-c){
+    display: $d-flex;
+    flex-direction: $flex-d;
+    align-items: $align-i;
+    justify-content: $justify-c;
+}
+@mixin dimensiones ($width, $heigth, $padding, $margin) {
+    width: $width;
+    height: $heigth;
+    padding: $padding;
+    margin: $margin;
+}
