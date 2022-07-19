@@ -1,15 +1,18 @@
+// mixin para alinear con flexbox
 @mixin align-flexbox ($d-flex, $flex-d, $align-i, $justify-c){
     display: $d-flex;
     flex-direction: $flex-d;
     align-items: $align-i;
     justify-content: $justify-c;
 }
+//mixin para estrucutra de textos
 @mixin font-estructure ( $text-font, $size, $t-align, $color) {
     font-family: $text-font;
     font-size: $size;
     text-align: $t-align;
     color: $color;
 }
+//mixin para estructura de cajas
 @mixin dimensiones ($width, $heigth, $padding, $margin) {
     width: $width;
     height: $heigth;

@@ -1,15 +1,14 @@
 .inicio{
-    background-color: map-get($b-color, inicio);
     padding: 20px;
     .bienvenida{
         padding: 20px;
         border-radius: 10px;
-        background-color: $color-violet;
+        background-color: $color-grey;
         h1{
             @include font-estructure($text-font, $title-size, center, $color-yellow)
         }
         p{
-            @include font-estructure($text-font, $text-size, center, $color-grey)
+            @include font-estructure($text-font, $text-size, center, white)
         }
     }
     .sugerencia{
@@ -18,21 +17,29 @@
             @include font-estructure($text-font, 24px, center, $color-yellow);
         }
         p{
-            @include font-estructure($text-font, $text-size, center, $color-grey)
+            @include font-estructure($text-font, $text-size, center, white)
         }
     }
 }
 .presentacion{
-    background-color: map-get($b-color, presentacion);
     div{
         padding: 20px;
         border-radius: 10px;
         background-color: map-get($b-color, cards);
+        border: 2px solid white;
         h3{
             @include font-estructure($text-font, 20px, center, $color-yellow);
         }
+        .material-symbols-outlined{
+            color: white;    
+        }
         p{
-            @include font-estructure($text-font, $text-size, center, $color-grey)
+            @include font-estructure($text-font, $text-size, center, white)
         }
     }
+}
+
+.destacados{
+    @include font-estructure($text-font, $title-size, center, white);
+
 }

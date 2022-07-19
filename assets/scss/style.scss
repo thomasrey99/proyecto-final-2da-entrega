@@ -1,15 +1,15 @@
 @import "reset";
 @import "vars";
-@import "mixin";
+@import "boots_mdf";
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "body";
+@import "mixn";
 @import "maps";
 @import "header";
 @import "footer";
-@import "buttons";
-@import "main_inicio";
+@import "main";
 @import "categorias";
 @import "loginForm";
-body{
-    font-family:$text-font;
-    font-weight: 400;
-    background-color: $color-grey;
-}
+
+
+
